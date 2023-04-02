@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B4EAFD2876042700E8CDE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EAFC2876042700E8CDE1 /* AppDelegate.swift */; };
+		04B4EAFF2876042700E8CDE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EAFE2876042700E8CDE1 /* SceneDelegate.swift */; };
+		04B4EB012876042700E8CDE1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB002876042700E8CDE1 /* HomeViewController.swift */; };
+		04B4EB042876042700E8CDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4EB022876042700E8CDE1 /* Main.storyboard */; };
+		04B4EB062876042D00E8CDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4EB052876042D00E8CDE1 /* Assets.xcassets */; };
+		04B4EB092876042D00E8CDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4EB072876042D00E8CDE1 /* LaunchScreen.storyboard */; };
+		04B4EB142876042D00E8CDE1 /* HUVICOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB132876042D00E8CDE1 /* HUVICOTests.swift */; };
+		04B4EB1E2876042D00E8CDE1 /* HUVICOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB1D2876042D00E8CDE1 /* HUVICOUITests.swift */; };
+		04B4EB202876042D00E8CDE1 /* HUVICOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB1F2876042D00E8CDE1 /* HUVICOUITestsLaunchTests.swift */; };
+		04B4EB3328760B0500E8CDE1 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB3228760B0500E8CDE1 /* ExploreViewController.swift */; };
+		04B4EB3628760DFA00E8CDE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB3528760DFA00E8CDE1 /* ProfileViewController.swift */; };
+		04B4EB3828760E1400E8CDE1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB3728760E1400E8CDE1 /* CameraViewController.swift */; };
+		04B4EB3A28760E3100E8CDE1 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB3928760E3100E8CDE1 /* NotificationsViewController.swift */; };
+		04B4EB422876135400E8CDE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB412876135400E8CDE1 /* LoginViewController.swift */; };
+		04B4EB442876136500E8CDE1 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB432876136500E8CDE1 /* RegistrationViewController.swift */; };
+		04B4EB462876164A00E8CDE1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB452876164A00E8CDE1 /* PostViewController.swift */; };
+		04B4EB48287616B000E8CDE1 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB47287616B000E8CDE1 /* EditProfileViewController.swift */; };
+		04B4EB4A287616C700E8CDE1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB49287616C700E8CDE1 /* SettingsViewController.swift */; };
+		04B4EB4C2876180E00E8CDE1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB4B2876180E00E8CDE1 /* ListViewController.swift */; };
+		04B4EB4E2876183100E8CDE1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB4D2876183100E8CDE1 /* SearchViewController.swift */; };
+		04B4EB502876185E00E8CDE1 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB4F2876185E00E8CDE1 /* SearchResultViewController.swift */; };
+		04B4EB52287618A300E8CDE1 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB51287618A300E8CDE1 /* PostEditorViewController.swift */; };
+		04B4EB54287618D500E8CDE1 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4EB53287618D500E8CDE1 /* PublishPostViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B4EB102876042D00E8CDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4EAF12876042700E8CDE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4EAF82876042700E8CDE1;
+			remoteInfo = HUVICO;
+		};
+		04B4EB1A2876042D00E8CDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4EAF12876042700E8CDE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4EAF82876042700E8CDE1;
+			remoteInfo = HUVICO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B4EAF92876042700E8CDE1 /* HUVICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUVICO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4EAFC2876042700E8CDE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04B4EAFE2876042700E8CDE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04B4EB002876042700E8CDE1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04B4EB032876042700E8CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B4EB052876042D00E8CDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B4EB082876042D00E8CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B4EB0A2876042D00E8CDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4EB0F2876042D00E8CDE1 /* HUVICOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUVICOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4EB132876042D00E8CDE1 /* HUVICOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUVICOTests.swift; sourceTree = "<group>"; };
+		04B4EB192876042D00E8CDE1 /* HUVICOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUVICOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4EB1D2876042D00E8CDE1 /* HUVICOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUVICOUITests.swift; sourceTree = "<group>"; };
+		04B4EB1F2876042D00E8CDE1 /* HUVICOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUVICOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04B4EB3228760B0500E8CDE1 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		04B4EB3528760DFA00E8CDE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04B4EB3728760E1400E8CDE1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		04B4EB3928760E3100E8CDE1 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		04B4EB412876135400E8CDE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04B4EB432876136500E8CDE1 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		04B4EB452876164A00E8CDE1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		04B4EB47287616B000E8CDE1 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		04B4EB49287616C700E8CDE1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		04B4EB4B2876180E00E8CDE1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		04B4EB4D2876183100E8CDE1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04B4EB4F2876185E00E8CDE1 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		04B4EB51287618A300E8CDE1 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		04B4EB53287618D500E8CDE1 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B4EAF62876042700E8CDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4EB0C2876042D00E8CDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4EB162876042D00E8CDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B4EAF02876042700E8CDE1 = {
+			isa = PBXGroup;
+			children = (
+				04B4EAFB2876042700E8CDE1 /* HUVICO */,
+				04B4EB122876042D00E8CDE1 /* HUVICOTests */,
+				04B4EB1C2876042D00E8CDE1 /* HUVICOUITests */,
+				04B4EAFA2876042700E8CDE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B4EAFA2876042700E8CDE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EAF92876042700E8CDE1 /* HUVICO.app */,
+				04B4EB0F2876042D00E8CDE1 /* HUVICOTests.xctest */,
+				04B4EB192876042D00E8CDE1 /* HUVICOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B4EAFB2876042700E8CDE1 /* HUVICO */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB30287607B900E8CDE1 /* Resources */,
+				04B4EB2E2876079000E8CDE1 /* Models */,
+				04B4EB2D2876078800E8CDE1 /* Views */,
+				04B4EB2C2876076B00E8CDE1 /* Controllers */,
+				04B4EB0A2876042D00E8CDE1 /* Info.plist */,
+			);
+			path = HUVICO;
+			sourceTree = "<group>";
+		};
+		04B4EB122876042D00E8CDE1 /* HUVICOTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB132876042D00E8CDE1 /* HUVICOTests.swift */,
+			);
+			path = HUVICOTests;
+			sourceTree = "<group>";
+		};
+		04B4EB1C2876042D00E8CDE1 /* HUVICOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB1D2876042D00E8CDE1 /* HUVICOUITests.swift */,
+				04B4EB1F2876042D00E8CDE1 /* HUVICOUITestsLaunchTests.swift */,
+			);
+			path = HUVICOUITests;
+			sourceTree = "<group>";
+		};
+		04B4EB2C2876076B00E8CDE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB3F287612AC00E8CDE1 /* Other */,
+				04B4EB3E28760F6F00E8CDE1 /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04B4EB2D2876078800E8CDE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB052876042D00E8CDE1 /* Assets.xcassets */,
+				04B4EB312876091800E8CDE1 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04B4EB2E2876079000E8CDE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04B4EB30287607B900E8CDE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EAFC2876042700E8CDE1 /* AppDelegate.swift */,
+				04B4EAFE2876042700E8CDE1 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04B4EB312876091800E8CDE1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB022876042700E8CDE1 /* Main.storyboard */,
+				04B4EB072876042D00E8CDE1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04B4EB3E28760F6F00E8CDE1 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB002876042700E8CDE1 /* HomeViewController.swift */,
+				04B4EB3228760B0500E8CDE1 /* ExploreViewController.swift */,
+				04B4EB3728760E1400E8CDE1 /* CameraViewController.swift */,
+				04B4EB3528760DFA00E8CDE1 /* ProfileViewController.swift */,
+				04B4EB3928760E3100E8CDE1 /* NotificationsViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		04B4EB3F287612AC00E8CDE1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB40287612D400E8CDE1 /* OnBoarding */,
+				04B4EB452876164A00E8CDE1 /* PostViewController.swift */,
+				04B4EB47287616B000E8CDE1 /* EditProfileViewController.swift */,
+				04B4EB49287616C700E8CDE1 /* SettingsViewController.swift */,
+				04B4EB4B2876180E00E8CDE1 /* ListViewController.swift */,
+				04B4EB4D2876183100E8CDE1 /* SearchViewController.swift */,
+				04B4EB4F2876185E00E8CDE1 /* SearchResultViewController.swift */,
+				04B4EB51287618A300E8CDE1 /* PostEditorViewController.swift */,
+				04B4EB53287618D500E8CDE1 /* PublishPostViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		04B4EB40287612D400E8CDE1 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				04B4EB412876135400E8CDE1 /* LoginViewController.swift */,
+				04B4EB432876136500E8CDE1 /* RegistrationViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B4EAF82876042700E8CDE1 /* HUVICO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4EB232876042D00E8CDE1 /* Build configuration list for PBXNativeTarget "HUVICO" */;
+			buildPhases = (
+				04B4EAF52876042700E8CDE1 /* Sources */,
+				04B4EAF62876042700E8CDE1 /* Frameworks */,
+				04B4EAF72876042700E8CDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUVICO;
+			productName = HUVICO;
+			productReference = 04B4EAF92876042700E8CDE1 /* HUVICO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B4EB0E2876042D00E8CDE1 /* HUVICOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4EB262876042D00E8CDE1 /* Build configuration list for PBXNativeTarget "HUVICOTests" */;
+			buildPhases = (
+				04B4EB0B2876042D00E8CDE1 /* Sources */,
+				04B4EB0C2876042D00E8CDE1 /* Frameworks */,
+				04B4EB0D2876042D00E8CDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4EB112876042D00E8CDE1 /* PBXTargetDependency */,
+			);
+			name = HUVICOTests;
+			productName = HUVICOTests;
+			productReference = 04B4EB0F2876042D00E8CDE1 /* HUVICOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B4EB182876042D00E8CDE1 /* HUVICOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4EB292876042D00E8CDE1 /* Build configuration list for PBXNativeTarget "HUVICOUITests" */;
+			buildPhases = (
+				04B4EB152876042D00E8CDE1 /* Sources */,
+				04B4EB162876042D00E8CDE1 /* Frameworks */,
+				04B4EB172876042D00E8CDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4EB1B2876042D00E8CDE1 /* PBXTargetDependency */,
+			);
+			name = HUVICOUITests;
+			productName = HUVICOUITests;
+			productReference = 04B4EB192876042D00E8CDE1 /* HUVICOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B4EAF12876042700E8CDE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					04B4EAF82876042700E8CDE1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					04B4EB0E2876042D00E8CDE1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 04B4EAF82876042700E8CDE1;
+					};
+					04B4EB182876042D00E8CDE1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 04B4EAF82876042700E8CDE1;
+					};
+				};
+			};
+			buildConfigurationList = 04B4EAF42876042700E8CDE1 /* Build configuration list for PBXProject "HUVICO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B4EAF02876042700E8CDE1;
+			productRefGroup = 04B4EAFA2876042700E8CDE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B4EAF82876042700E8CDE1 /* HUVICO */,
+				04B4EB0E2876042D00E8CDE1 /* HUVICOTests */,
+				04B4EB182876042D00E8CDE1 /* HUVICOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B4EAF72876042700E8CDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4EB092876042D00E8CDE1 /* LaunchScreen.storyboard in Resources */,
+				04B4EB062876042D00E8CDE1 /* Assets.xcassets in Resources */,
+				04B4EB042876042700E8CDE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4EB0D2876042D00E8CDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4EB172876042D00E8CDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B4EAF52876042700E8CDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4EB48287616B000E8CDE1 /* EditProfileViewController.swift in Sources */,
+				04B4EB3328760B0500E8CDE1 /* ExploreViewController.swift in Sources */,
+				04B4EB54287618D500E8CDE1 /* PublishPostViewController.swift in Sources */,
+				04B4EB012876042700E8CDE1 /* HomeViewController.swift in Sources */,
+				04B4EB3628760DFA00E8CDE1 /* ProfileViewController.swift in Sources */,
+				04B4EB442876136500E8CDE1 /* RegistrationViewController.swift in Sources */,
+				04B4EB52287618A300E8CDE1 /* PostEditorViewController.swift in Sources */,
+				04B4EB462876164A00E8CDE1 /* PostViewController.swift in Sources */,
+				04B4EAFD2876042700E8CDE1 /* AppDelegate.swift in Sources */,
+				04B4EB502876185E00E8CDE1 /* SearchResultViewController.swift in Sources */,
+				04B4EB422876135400E8CDE1 /* LoginViewController.swift in Sources */,
+				04B4EB4E2876183100E8CDE1 /* SearchViewController.swift in Sources */,
+				04B4EAFF2876042700E8CDE1 /* SceneDelegate.swift in Sources */,
+				04B4EB3A28760E3100E8CDE1 /* NotificationsViewController.swift in Sources */,
+				04B4EB3828760E1400E8CDE1 /* CameraViewController.swift in Sources */,
+				04B4EB4C2876180E00E8CDE1 /* ListViewController.swift in Sources */,
+				04B4EB4A287616C700E8CDE1 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4EB0B2876042D00E8CDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4EB142876042D00E8CDE1 /* HUVICOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4EB152876042D00E8CDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4EB202876042D00E8CDE1 /* HUVICOUITestsLaunchTests.swift in Sources */,
+				04B4EB1E2876042D00E8CDE1 /* HUVICOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B4EB112876042D00E8CDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4EAF82876042700E8CDE1 /* HUVICO */;
+			targetProxy = 04B4EB102876042D00E8CDE1 /* PBXContainerItemProxy */;
+		};
+		04B4EB1B2876042D00E8CDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4EAF82876042700E8CDE1 /* HUVICO */;
+			targetProxy = 04B4EB1A2876042D00E8CDE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B4EB022876042700E8CDE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4EB032876042700E8CDE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B4EB072876042D00E8CDE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4EB082876042D00E8CDE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B4EB212876042D00E8CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B4EB222876042D00E8CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B4EB242876042D00E8CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPCUUFK4LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HUVICO/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HUVICO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HUVICO.HUVICO-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B4EB252876042D00E8CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPCUUFK4LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HUVICO/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HUVICO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HUVICO.HUVICO-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04B4EB272876042D00E8CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPCUUFK4LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HUVICO.HUVICOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUVICO.app/HUVICO";
+			};
+			name = Debug;
+		};
+		04B4EB282876042D00E8CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPCUUFK4LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HUVICO.HUVICOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUVICO.app/HUVICO";
+			};
+			name = Release;
+		};
+		04B4EB2A2876042D00E8CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPCUUFK4LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HUVICO.HUVICOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HUVICO;
+			};
+			name = Debug;
+		};
+		04B4EB2B2876042D00E8CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPCUUFK4LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HUVICO.HUVICOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HUVICO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4EAF42876042700E8CDE1 /* Build configuration list for PBXProject "HUVICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4EB212876042D00E8CDE1 /* Debug */,
+				04B4EB222876042D00E8CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4EB232876042D00E8CDE1 /* Build configuration list for PBXNativeTarget "HUVICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4EB242876042D00E8CDE1 /* Debug */,
+				04B4EB252876042D00E8CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4EB262876042D00E8CDE1 /* Build configuration list for PBXNativeTarget "HUVICOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4EB272876042D00E8CDE1 /* Debug */,
+				04B4EB282876042D00E8CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4EB292876042D00E8CDE1 /* Build configuration list for PBXNativeTarget "HUVICOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4EB2A2876042D00E8CDE1 /* Debug */,
+				04B4EB2B2876042D00E8CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B4EAF12876042700E8CDE1 /* Project object */;
+}
